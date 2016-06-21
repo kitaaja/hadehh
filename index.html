@@ -1,0 +1,455 @@
+<html>
+	<style type="text/css">
+	body{
+		height: auto;
+		width: auto;
+		background-image: url(images/Rush.png);
+	}
+	#induk{
+		height: 1500px;
+		width: 1200px;
+		background-image: url(images/noisy_grid.png);
+		margin: 0 auto;
+	}
+	#header{
+		background : #fff url(images/indonesia.jpg);
+		background-repeat: no-repeat;
+		height: 150px;
+		width: 1200px;
+	}
+	#navigasi{
+		height: 30px;
+		width: 1200px;
+		background: grey;
+	}
+	.navi{
+		margin: 1px;
+	}
+	#navigasi .navi .pilihan{
+		list-style-type: none;
+		float: left;
+		margin-left: 38px;
+	}
+	#navigasi .navi .pilihan a{
+		text-align: center;
+		text-decoration: none;
+		font-style: bold;
+		font-size: 19px;
+		color: #fff;
+	}
+	.login{
+		list-style-type: none;
+	}
+	#header .login a{
+		text-decoration: none;
+		list-style-type: none;
+		float: right;
+		color: gray;
+		margin: 5px;
+	}
+	.search{
+		list-style-type: none;
+	}
+	.search .cari a{
+		width: 35px;
+		height: 25px;
+		background-image: url(images/b_1279429335264.jpg);
+		background-position: -546px -16px;
+		position: relative;
+		background-color: transparent;
+		background-repeat: no-repeat;
+		background-attachment: scroll;
+		background-size: auto auto;
+		float: right;
+	}
+	#kotakcari{
+		height: 40px;
+		width: 260px;
+		float: right;
+		margin-top: 30px;
+		margin-right: -53px;
+	}
+	#konten{
+		height: 1200px;
+		width: 1150px;
+		border: 1px solid #ccc;
+		margin: 0px auto;
+	}
+	.kiri{
+		height: 1100px;
+		width: 700px;
+		float: left;
+		border: 1px solid #ccc;
+		margin: 10px;
+	}
+	.kanan{
+		height: 1100px;
+		width: 396px;
+		float: right;
+		border: 1px solid #ccc;
+		margin: 10px;
+	}
+	#kaki{
+		width: 1200px;
+		height: 110px;
+		border: 1px solid #ccc;
+		margin-top: 6px;
+		margin-left: 1px;
+		background-color: white;
+	}
+	#kaki .sosmed{
+		width: 240px;
+		height: 40px;
+		margin: 20px auto 10px;
+	}
+	.iconfb{
+		background-position: 0px 0px;
+	}
+	.icontw{
+		background-position: -40px 0px;
+	}
+	.iconyt{
+		background-position: -80px 0px;
+	}
+	.icongo{
+		background-position: -120px 0px;
+	}
+	.iconsy{
+		background-position: -160px 0px;
+	}
+	#kaki .sosmed span{
+		float: left;
+		margin-right: 8px;
+	}
+	.sosmed span a{
+		float: left;
+		height: 40px;
+		display: block;
+		width: 40px;
+		background-color: transparent;
+		background-image: url("images/icon.png");
+		background-repeat: no-repeat;
+		background-clip: border-box;
+		background-origin: padding-box;
+		background-size: auto auto;
+		transition: all 0.2s ease 0s;
+	}
+	.hakcipta{
+		text-align: center;
+		color: grey;
+		text-transform: 11px;
+		text-decoration: underline;
+	}
+	#header img{
+		width: 103px;
+		height: 100px;
+		float: left;
+		margin-top: 15px;
+		margin-left: 360px;
+	}
+	#header .jdl p{
+		font-size: 30px;
+		font-weight: bold;
+		font-variant: small-caps;
+		color: rgba(23, 22, 22, 0.83);
+	}
+	.jdl{
+		width: 155px;
+		height: 30px;
+		margin-left: 431px;
+		position: absolute;
+		margin-top: 54px;
+	}
+	.sas{
+		width: 30px;
+		height: 20px;
+		margin-left: 600px;
+		margin-top: 0px;
+	}
+	.sas .mt{
+		font-variant: small-caps;
+		font-weight: bold;
+		font-size: 24px;
+		color: #3E3E3E;
+	}
+	.kiri img{
+		margin-top: 5px;
+		margin-left: 50px;
+	}
+	.kiri .jud{
+		font-size: 30px;
+		text-align: center;
+	}
+	a{
+		text-decoration: none;
+		color: gray;
+	}
+	.linknew{
+		width: 691px;
+		height: 99px;
+		border: 1px solid gray;
+		margin-left: 3px;
+		margin-right: 3px;
+		margin-top: 3px;
+	}
+	.linknew .fot{
+		width: 80px;
+		height: 90px;
+		border: 1px solid gray;
+		border-radius: 20%;
+		margin-left: 5px;
+		margin-top: 1px;
+	}
+	.qw{
+		width: 585px;
+		height: 93px;
+		float: right;
+		border: 1px solid gray;
+		margin: 2px;
+	}
+	.qw p{
+		margin-top: -2px;
+	}
+	.fot img{
+		width: 80px;
+		height: 90px;
+		margin: 0px;
+		border-radius: 20%;
+	}
+	.berpop{
+		width: 390px;
+		height: 583px;
+		margin: 2px;
+		border: 1px solid gray;
+	}
+	.qe{
+		width: 384px;
+		height: 100px;
+		margin: 2px;
+		border: 1px solid gray;
+		float: left;
+	}
+	.pp{
+		width: 70px;
+		height: 93px;
+		margin: 2px;
+		border: 1px solid gray;
+		border-radius: 10%;
+		float: left;
+	}
+	.pp img{
+		width: 70px;
+		height: 93px;
+		border-radius: 10%;
+	}
+	.si{
+		width: 295px;
+		height: 93px;
+		margin: 2px;
+		float: right;
+		border: 1px solid gray;
+	}
+	.si p{
+		margin-top: 20px;
+	}
+	.iklan{
+		width: 390px;
+		height: 507px;
+		margin: 2px;
+		border: 1px solid gray;
+		float: right;
+	}
+	</style>
+	<head>
+		<title>Home</title>
+	</head>
+	<body>
+		<div id="induk">
+			<div id="header">
+				<ul>
+					<li class="login">
+						<a href="login.html"><input type="submit" value="Masuk"></a>
+					</li>
+				</ul>
+				<div id="kotakcari">
+					<div class="search">
+					<div class="cari">
+    					<p><a class="search cari" target="_blank" href=""></a></p>
+    				</div>
+					<label>
+						Pencarian
+					</label>
+    				<input id="search-query" class="search-input" type="text" spellcheck="false" autocomplete="off" name="q" placeholder="Apa Yang Anda Cari" aria-autocomplete="list" aria-expanded="true" aria-owns="typeahead-dropdown-1"></input>
+					</div>
+				</div>
+				<img src="images/p-logo.jpg">
+				<div class="jdl"><p>AL News</p></div>
+				<div class="sas">
+					<p class="mt">Terdepan</p>
+					<p class="mt">Terpercaya</p>
+					<p class="mt">Terakurat</p>
+				</div>
+			</div>
+			<div id="navigasi">
+				<ul class="navi">
+					<li class="pilihan">
+						<a href="index.html">Home</a>
+					</li>
+					<li class="pilihan">
+						<a href="politik.html">Politik</a>
+					</li>
+					<li class="pilihan">
+						<a href="pendidikan.html">Pendidikan</a>
+					</li>
+					<li class="pilihan">
+						<a href="kriminal.html">Kriminal</a>
+					</li>
+					<li class="pilihan">
+						<a href="teknologi.html">Teknologi</a>
+					</li>
+					<li class="pilihan">
+						<a href="olahraga.html">Olahraga</a>
+					</li>
+					<li class="pilihan">
+						<a href="about.html">About</a>
+					</li>
+				</ul>
+			</div>
+			<div id="konten">
+				<div class="kiri">
+					<a href=""><img src="images/berita/RKv8vhI.jpg"></a>
+					<p class="jud"><a href=""><b>Jim Geovedi, Hacker Indonesia yang Ditakuti Dunia</b></a></p>
+					<p>Jim Geovedi adalah orang yang berbahaya. Pada masa ketika nyaris semua informasi dan manusia terkoneksi, Jim, jika dia mau, bisa setiap saat keluar masuk ke sana: melongok percakapan surat elektronik atau sekedar mengintip perselingkuhan anda di dunia maya.
+					</p>
+					<div class="linknew">
+						<div class="qw">
+						<p><b>Strategi Pertamina Atasi Kelangkaan BBM di Tol Cipali Saat Mudik</b></p>
+						<p>
+Subang - Manajemen PT Pertamina (Persero) menyatakan tak khawatir jika Stasiun Pengisian Bahan Bakar Umum (SPBU) di Tol Cikopo-Palimanan (Cipali) akan kekurangan bahan bakar minyak (BBM) ketika musim mudik.</p>
+						</div>
+						<div class="fot">
+							<a href=""><img src="images/berita/bbm.png"></a>
+						</div>
+					</div>
+					<div class="linknew">
+						<div class="qw">
+							<p><b>Vinales Tercepat di Sesi Ketiga</b></p>
+							<p>Barcelona - Pebalap Suzuki, Maverick Vinales, menorehkan catatan waktu terbaik dalam free practice III MotoGP Catalunya. Vinales mengungguli Jorge Lorenzo dan Aleix Espargaro yang ada di urutan kedua dan ketiga.</p>
+						</div>
+						<div class="fot">
+							<a href=""><img src="images/berita/gp.jpg"></a>
+						</div>
+					</div>
+					<div class="linknew">
+						<div class="qw">
+							<p><b>Indonesia Dikalahkan Thailand, Mimpi Meraih Emas Sepakbola Terkubur Lagi</b></p>
+							<p>Singapura - Mimpi Indonesia untuk kembali meraih medali emas SEA Games di cabang sepakbola belum bisa diwujudkan tahun ini. Mimpi itu kandas lagi setelah dikalahkan Thailand 0-5 di babak semifinal.</p>
+						</div>
+						<div class="fot">
+							<a href=""><img src="images/berita/indonesia.jpg"></a>
+						</div>
+					</div>
+					<div class="linknew">
+						<div class="qw">
+							<p><b>Pique Dibela Usai Disoraki Pendukung Spanyol</b></p>
+							<p>Madrid - Bek Barcelona mendapatkan cemoohan dari pendukung timnas Spanyol akibat ucapannya pada perayaan kemenangan Los Cules. Pique memilih cuek dan belakangan mendapatkan pembelaan dari rekan satu tim.</p>
+						</div>
+						<div class="fot">
+							<a href=""><img src="images/berita/pique.jpg"></a>
+						</div>
+					</div>
+					<div class="linknew">
+						<div class="qw">
+							<p><b>Mendikbud: Meski Bocor UN Jangan Dihentikan, Tapi Disempurnakan</b></p>
+							<p>Jakarta - Gubernur DKI Jakarta Basuki Tjahaja Purnama atau Ahok memastikan kepala SMA Negeri 3 Retno Listyarti akan dipecat. Dia dipecat karena tidak berada di sekolah saat UN, tapi berada di SMA 2, Jakarta Barat.</p>
+						</div>
+						<div class="fot">
+							<a href=""><img src="images/berita/ahok.jpg"></a>
+						</div>
+					</div>
+					<div class="linknew">
+						<div class="qw">
+							<p><b>Menteri Anies: Pembocor Soal UN Khianati Ribuan Siswa Amanah</b></p>
+							<p>Jakarta - Bareskrim Polri menangkap terduga pembocor soal Ujian Nasional atau UN 2015 melalui Google Drive. Tindakan ini dianggap sebagai bentuk pengkhianatan kepada puluhan ribu orang, yang berusaha disiplin dan amanah menjaga soal sampai kepada siswa.</p>
+						</div>
+						<div class="fot">
+							<a href=""><img src="images/berita/soal un.jpg"></a>
+						</div>
+					</div>
+				</div>
+				<div class="kanan">
+					<div class="berpop">
+						<p><b>Berita Populer</b></p>
+						<div class="qe">
+							<div class="pp">
+								<img src="images/berita/zero.jpg">
+							</div>
+							<div class="si">
+								<a href=""><b>Hampir 10 Unit Motor Listrik Zero Sudah Dipesan Konsumen</b></a>
+							</div>
+						</div>
+						<div class="qe">
+							<div class="pp">
+								<img src="images/berita/pertamina.jpg">
+							</div>
+							<div class="si">
+								<a href=""><b>Pertamina Belum Akan Naikkan Harga Pertamax</b></a>
+							</div>
+						</div>
+						<div class="qe">
+							<div class="pp">
+								<img src="images/berita/sucses.jpg">
+							</div>
+							<div class="si">
+								<a href=""><b>Orang Sukses Tetap Kerja Keras Saat Libur Akhir Pekan?</b></a>
+							</div>
+						</div>
+						<div class="qe">
+							<div class="pp">
+								<img src="images/berita/zimbabwe.jpg">
+							</div>
+							<div class="si">
+								<a href=""><b>Bank Sentral Hapus Dolar Zimbabwe</b></a>
+							</div>
+						</div>
+						<div class="qe">
+							<div class="pp">
+								<img src="images/berita/bbm.png">
+							</div>
+							<div class="si">
+								<a href=""><b>Strategi Pertamina Atasi Kelangkaan BBM di Tol Cipali Saat Mudik</b></a>
+							</div>
+						</div>
+					</div>
+					<div class="iklan">
+						<img src="images/iklan/GT+mobile+22+agust.jpg" height="200" width="190">
+						<img src="images/iklan/iklan.jpg" height="200" width="190">
+						<img src="images/iklan/iklan2.jpg" height="200" width="190">
+						<img src="images/iklan/4.png" height="200" width="190">
+						<img src="images/iklan/iklan-rumah.jpg" height="90" width="385">
+					</div>
+				</div>
+			</div>
+			<div id="kaki">
+				<div class="sosmed">
+					<span>
+						<a class="iconfb" target="_blank" href=""></a>
+					</span>
+					<span>
+						<a class="icontw" target="_blank" href=""></a>
+					</span>
+					<span>
+						<a class="iconyt" target="_blank" href=""></a>
+					</span>
+					<span>
+						<a class="icongo" target="_blank" href=""></a>
+					</span>
+					<span>
+						<a class="iconsy" target="_blank" href=""></a>
+					</span>
+				</div>
+			</div>
+		</div>
+		<p class="hakcipta">Copyright © PalNews</p>
+	</body>
+</html>
