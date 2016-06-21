@@ -1,0 +1,394 @@
+<html>
+	<style type="text/css">
+	body{
+		height: auto;
+		width: auto;
+		background-image: url(images/Rush.png);
+	}
+	#induk{
+		height: 1500px;
+		width: 1200px;
+		background-image: url(images/noisy_grid.png);
+		margin: 0 auto;
+	}
+	#header{
+		background : #fff url(images/indonesia.jpg);
+		background-repeat: no-repeat;
+		height: 150px;
+		width: 1200px;
+	}
+	#navigasi{
+		height: 30px;
+		width: 1200px;
+		background: grey;
+	}
+	.navi{
+		margin: 1px;
+	}
+	#navigasi .navi .pilihan{
+		list-style-type: none;
+		float: left;
+		margin-left: 38px;
+	}
+	#navigasi .navi .pilihan a{
+		text-align: center;
+		text-decoration: none;
+		font-style: bold;
+		font-size: 19px;
+		color: #fff;
+	}
+	.login{
+		list-style-type: none;
+	}
+	#header .login a{
+		text-decoration: none;
+		list-style-type: none;
+		float: right;
+		color: gray;
+		margin: 5px;
+	}
+	.search{
+		list-style-type: none;
+	}
+	.search .cari a{
+		width: 35px;
+		height: 25px;
+		background-image: url(images/b_1279429335264.jpg);
+		background-position: -546px -16px;
+		position: relative;
+		background-color: transparent;
+		background-repeat: no-repeat;
+		background-attachment: scroll;
+		background-size: auto auto;
+		float: right;
+	}
+	#kotakcari{
+		height: 40px;
+		width: 251px;
+		float: right;
+		margin-top: 30px;
+		margin-right: -53px;
+	}
+	#konten{
+		height: 1200px;
+		width: 1150px;
+		border: 1px solid #ccc;
+		margin: 0px auto;
+	}
+	.kiri{
+		height: 1100px;
+		width: 700px;
+		float: left;
+		border: 1px solid #ccc;
+		margin: 10px;
+	}
+	.kanan{
+		height: 1100px;
+		width: 396px;
+		float: right;
+		border: 1px solid #ccc;
+		margin: 10px;
+	}
+	#kaki{
+		width: 1200px;
+		height: 110px;
+		border: 1px solid #ccc;
+		margin-top: 0px;
+		margin-left: 66px;
+		background-color: white;
+	}
+	#kaki .sosmed{
+		width: 240px;
+		height: 40px;
+		margin: 20px auto 10px;
+	}
+	.iconfb{
+		background-position: 0px 0px;
+	}
+	.icontw{
+		background-position: -40px 0px;
+	}
+	.iconyt{
+		background-position: -80px 0px;
+	}
+	.icongo{
+		background-position: -120px 0px;
+	}
+	.iconsy{
+		background-position: -160px 0px;
+	}
+	#kaki .sosmed span{
+		float: left;
+		margin-right: 8px;
+	}
+	.sosmed span a{
+		float: left;
+		height: 40px;
+		display: block;
+		width: 40px;
+		background-color: transparent;
+		background-image: url("images/icon.png");
+		background-repeat: no-repeat;
+		background-clip: border-box;
+		background-origin: padding-box;
+		background-size: auto auto;
+		transition: all 0.2s ease 0s;
+	}
+	.hakcipta{
+		text-align: center;
+		color: grey;
+		text-transform: 11px;
+		text-decoration: underline;
+	}
+	#header img{
+		width: 103px;
+		height: 100px;
+		float: left;
+		margin-top: 15px;
+		margin-left: 360px;
+	}
+	#header .jdl p{
+		font-size: 30px;
+		font-weight: bold;
+		font-variant: small-caps;
+		color: rgba(23, 22, 22, 0.83);
+	}
+	.jdl{
+		width: 155px;
+		height: 30px;
+		margin-left: 431px;
+		position: absolute;
+		margin-top: 54px;
+	}
+	.sas{
+		width: 30px;
+		height: 20px;
+		margin-left: 600px;
+		margin-top: 0px;
+	}
+	.sas .mt{
+		font-variant: small-caps;
+		font-weight: bold;
+		font-size: 24px;
+		color: #3E3E3E;
+	}
+	.kiri img{
+		margin-top: 0px;
+		margin-left: 14px;
+	}
+	.kiri .jud{
+		font-size: 30px;
+		text-align: center;
+	}
+	a{
+		text-decoration: none;
+		color: gray;
+	}
+	.berpop{
+		width: 390px;
+		height: 583px;
+		margin: 2px;
+		border: 1px solid gray;
+	}
+	.qe{
+		width: 384px;
+		height: 100px;
+		margin: 2px;
+		border: 1px solid gray;
+		float: left;
+	}
+	.pp{
+		width: 70px;
+		height: 93px;
+		margin: 2px;
+		border: 1px solid gray;
+		border-radius: 10%;
+		float: left;
+	}
+	.pp img{
+		width: 70px;
+		height: 93px;
+		border-radius: 10%;
+	}
+	.si{
+		width: 295px;
+		height: 93px;
+		margin: 2px;
+		float: right;
+		border: 1px solid gray;
+	}
+	.si p{
+		margin-top: 20px;
+	}
+	.iklan{
+		width: 390px;
+		height: 507px;
+		margin: 2px;
+		border: 1px solid gray;
+		float: right;
+	}
+	</style>
+	<head>
+		<title>Home</title>
+	</head>
+	<body>
+		<div id="induk">
+			<div id="header">
+				<ul>
+					<li class="login">
+						<a href="login.html"><input type="submit" value="Masuk"></a>
+					</li>
+				</ul>
+				<div id="kotakcari">
+					<div class="search">
+					<div class="cari">
+    					<p><a class="search cari" target="_blank" href=""></a></p>
+    				</div>
+					<label>
+						Pencarian
+					</label>
+    				<input id="search-query" class="search-input" type="text" spellcheck="false" autocomplete="off" name="q" placeholder="Apa Yang Anda Cari" aria-autocomplete="list" aria-expanded="true" aria-owns="typeahead-dropdown-1"></input>
+					</div>
+				</div>
+				<img src="images/p-logo.jpg">
+				<div class="jdl"><p>AL News</p></div>
+				<div class="sas">
+					<p class="mt">Terdepan</p>
+					<p class="mt">Terpercaya</p>
+					<p class="mt">Terakurat</p>
+				</div>
+			</div>
+			<div id="navigasi">
+				<ul class="navi">
+					<li class="pilihan">
+						<a href="index.html">Home</a>
+					</li>
+					<li class="pilihan">
+						<a href="politik.html">Politik</a>
+					</li>
+					<li class="pilihan">
+						<a href="pendidikan.html">Pendidikan</a>
+					</li>
+					<li class="pilihan">
+						<a href="kriminal.html">Kriminal</a>
+					</li>
+					<li class="pilihan">
+						<a href="teknologi.html">Teknologi</a>
+					</li>
+					<li class="pilihan">
+						<a href="olahraga.html">Olahraga</a>
+					</li>
+					<li class="pilihan">
+						<a href="about.html">About</a>
+					</li>
+				</ul>
+			</div>
+			<div id="konten">
+				<div class="kiri">
+					<a href=""><img src="images/berita/GOLKAR.jpg"></a>
+					<p class="jud"><a href=""><b>Golkar Terpecah</b></a></p>
+					<P>Jakarta - Partai Golkar kubu Agung Laksono sempat menggelar Musyawarah Daerah (Musda) di sejumlah daerah, di antaranya Bali, Nusa Tenggara Timur, Jakarta, dan Lampung. Sejumlah kader Golkar kubu Aburizal Bakrie atau Ical juga disebut-sebut ikut berpartisipasi dalam musda tersebut.
+
+Dengan adanya hal itu, Ical selaku Ketua Umum Partai Golkar versi Munas Bali mengancam akan memberikan sanksi tegas kepada para kader yang ikut musda tersebut.
+
+"Yang kita berikan sanksi adalah orang-orang yang nyata-nyata melakukan (mengikuti) musda," ucap Ical saat memberikan sambutannya dalam Rapat Pimpinan Nasional (Rapimnas) VIII di Hotel Shangri-La, Jakarta Pusat, Sabtu (13/6/2015).
+
+Ical menilai musda yang digelar kubu Agung tidak sah di mata hukum. Sebab, berdasarkan putusan sela Pengadilan Negeri Jakarta Utara, kepengurusan DPP Partai Golkar dikembalikan ke Munas Riau 2009. Menurut dia, jika ada salah satu kubu menyelenggarakan musda adalah ilegal dan telah melawan AD dan ART partai.
+
+"Karena Pengadilan Jakarta Utara memantapkan kepengurusan DPP hasil Munas Riau. Maka kalau masih ada yang masih lakukan musda, berarti itu adalah makar (kudeta), karena nyata-nyata telah melanggar aturan partai, dan melecehkan putusan," tutur Ical.
+
+Dengan demikian, Ical meminta kepada Agung untuk menghormati keputusan sela Pengadilan Negeri Jakarta Utara. Sehingga, Golkar kubu Agung tidak lagi menyelenggarakan kegiatan yang mengatasnamakan partai.
+
+"Partai Golkar harus berada di depan sebagai ujung tombak penegakan peraturan taat asas," tukas Ical.
+    
+Buka Peluang Koalisi
+
+Sementara Ketua Dewan Pimpinan Pusat (DPP) Partai Golkar hasil Munas Riau 2009 Nurdin Halid mengungkapkan, pihaknya tidak menutup pintu untuk berkoalisi dengan sejumlah partai yang tergabung dalam Koalisi Indonesia Hebat (KIH) dalam menghadapi Pemilihan Kepala Daerah (Pilkada) serentak yang akan dilangsungkan pada Desember 2015.
+
+"Tidak tertutup kemungkinan bisa berkoalisi dengan KIH. Itu bisa terjadi," ujar Nurdin di sela-sela acara Rapimnas VIII? di Hotel Shangri-La, Jakarta Pusat, Sabtu 13 Juni 2015.
+
+Menurut Nurdin, dalam Pilkada serentak mendatang, masyarakat tidak lagi memilih partai politik, melainkan memilih seorang tokoh. Dengan adanya hal itu, upaya koalisi terhadap sejumlah partai pastinya akan dilakukan, termasuk partai dari KIH.
+
+"Ini kan bukan pilih partai, tapi pilih orang. Jadi siapa pun yang punya potensi di masing-masing daerah," tukas Nurdin.
+
+Ia menambahkan, dalam Koalisi Merah Putih (KMP) sendiri, pihaknya akan mengevaluasi siapa saja kader terbaik yang maju sebagai calon kepala daerah.
+
+"Khusus di KMP akan dibicarakan siapa di antara kader partai dari KMP ini yang paling potensial, saya yakin KMP akan mendukung," pungkas Wakil Ketua Umum DPP Partai Golkar hasil Munas Bali tersebut. (Ans/Rmn)</P>					
+				</div>
+				<div class="kanan">
+					<div class="berpop">
+						<p><b>Berita Populer</b></p>
+						<div class="qe">
+							<div class="pp">
+								<img src="images/berita/The-Conjuring-2.jpg">
+							</div>
+							<div class="si">
+								<a href="http://www.pusatsinopsis.com/2015/12/sinopsis-the-conjuring-2-enfield-poltergeist-2016.html"><b>Demam Film Conjuring-2</b></a>
+							</div>
+						</div>
+						<div class="qe">
+							<div class="pp">
+								<img src="images/berita/sembako.jpg">
+							</div>
+							<div class="si">
+								<a href="http://ekbis.sindonews.com/read/1117187/34/ratusan-warga-mengular-panjang-demi-sembako-murah-1466060890"><b>Ratusan Warga Mengular Panjang Demi Sembako Murah</b></a>
+							</div>
+						</div>
+						<div class="qe">
+							<div class="pp">
+								<img src="images/berita/sucses.jpg">
+							</div>
+							<div class="si">
+								<a href=""><b>Orang Sukses Tetap Kerja Keras Saat Libur Akhir Pekan?</b></a>
+							</div>
+						</div>
+						<div class="qe">
+							<div class="pp">
+								<img src="images/berita/zimbabwe.jpg">
+							</div>
+							<div class="si">
+								<a href=""><b>Bank Sentral Hapus Dolar Zimbabwe</b></a>
+							</div>
+						</div>
+						<div class="qe">
+							<div class="pp">
+								<img src="images/berita/bbm.png">
+							</div>
+							<div class="si">
+								<a href=""><b>Strategi Pertamina Atasi Kelangkaan BBM di Tol Cipali Saat Mudik</b></a>
+							</div>
+						</div>
+					</div>
+					<div class="iklan">
+						<img src="images/iklan/GT+mobile+22+agust.jpg" height="200" width="190">
+						<img src="images/iklan/iklan.jpg" height="200" width="190">
+						<img src="images/iklan/iklan2.jpg" height="200" width="190">
+						<img src="images/iklan/4.png" height="200" width="190">
+						<img src="images/iklan/iklan-rumah.jpg" height="90" width="385">
+					</div>
+				</div>
+			</div>
+			</div>
+			<div id="kaki">
+				<div class="sosmed">
+					<span>
+						<a class="iconfb" target="_blank" href=""></a>
+					</span>
+					<span>
+						<a class="icontw" target="_blank" href=""></a>
+					</span>
+					<span>
+						<a class="iconyt" target="_blank" href=""></a>
+					</span>
+					<span>
+						<a class="icongo" target="_blank" href=""></a>
+					</span>
+					<span>
+						<a class="iconsy" target="_blank" href=""></a>
+					</span>
+				</div>
+			</div>
+		</div>
+		<p class="hakcipta">Copyright © PalNews</p>
+	</body>
+</html>
